@@ -1,0 +1,22 @@
+﻿生成启动时间为 2018/11/14 11:35:51。
+     1>项目“E:\my_pro\boom\boom\boom.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Release\boom.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         所有输出均为最新。
+         所有输出均为最新。
+       ResourceCompile:
+         所有输出均为最新。
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\bin\release\boom.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\lib\release power.lib /MANIFEST /ManifestFile:"Release\boom.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\my_pro\boom\bin\release\boom.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\bin\release\boom.lib" /MACHINE:X86 Release\boom.res
+         Release\boom.obj
+         Release\boomDlg.obj
+         Release\stdafx.obj
+     1>boom.obj : error LNK2001: 无法解析的外部符号 "public: __thiscall CTlbbApi::~CTlbbApi(void)" (??1CTlbbApi@@QAE@XZ)
+     1>boomDlg.obj : error LNK2001: 无法解析的外部符号 "public: __thiscall CTlbbApi::CTlbbApi(void)" (??0CTlbbApi@@QAE@XZ)
+     1>..\bin\release\boom.exe : fatal error LNK1120: 2 个无法解析的外部命令
+     1>已完成生成项目“E:\my_pro\boom\boom\boom.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.87

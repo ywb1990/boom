@@ -1,6 +1,0 @@
-cd /d %~dp0
-copy %1.dll "E:\V2.x.x\src\MAIN\bin\release"
-copy %1.lib "E:\V2.x.x\src\MAIN\main_src\lib\release"
-cd..
-copy "%cd%\dll_src\%1\export" "%cd%\dll_include\%1"
-copy "%cd%\dll_include\%1" "E:\V2.x.x\src\MAIN\main_src\include\%1"

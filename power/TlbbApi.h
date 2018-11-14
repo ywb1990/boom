@@ -1,5 +1,5 @@
 #pragma once
-class CTlbbApi
+class AFX_EXT_CLASS CTlbbApi
 {
 public:
 	CTlbbApi(void);
