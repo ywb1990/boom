@@ -1,0 +1,36 @@
+﻿生成启动时间为 2018/11/8 17:56:12。
+     1>项目“E:\my_pro\boom\power\power.vcxproj”在节点 2 上(build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(298,5): warning MSB8004: Intermediate 目录未以斜杠结尾。此生成实例将添加斜杠，因为必须有这个斜杠才能正确计算 Intermediate 目录。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(299,5): warning MSB8004: Output 目录未以斜杠结尾。此生成实例将添加斜杠，因为必须有这个斜杠才能正确计算 Output 目录。
+     1>InitializeBuildStatus:
+         正在创建“Release\power.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _USRDLL /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\power.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt TlbbApi.cpp
+         TlbbApi.cpp
+       ResourceCompile:
+         所有输出均为最新。
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\dll\release\\power.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\dll\release\ /DEF:".\power.def" /MANIFEST /ManifestFile:"Release\power.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\my_pro\boom\dll\release\power.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\dll\release\power.lib" /MACHINE:X86 /DLL Release\power.res
+         Release\power.obj
+         Release\stdafx.obj
+         Release\TlbbApi.obj
+            正在创建库 ..\dll\release\power.lib 和对象 ..\dll\release\power.exp
+         正在生成代码
+         已完成代码的生成
+         power.vcxproj -> E:\my_pro\boom\power\..\dll\release\power.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"..\dll\release\\power.dll;#2" /manifest Release\power.dll.intermediate.manifest "D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       PostBuildEvent:
+         "..\dll\release\\cp.bat" power
+         :VCEnd
+         已复制         1 个文件。
+         已复制         1 个文件。
+       FinalizeBuildStatus:
+         正在删除文件“Release\power.unsuccessfulbuild”。
+         正在对“Release\power.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\my_pro\boom\power\power.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.97
