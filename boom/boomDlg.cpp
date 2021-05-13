@@ -54,6 +54,11 @@ CboomDlg::CboomDlg(CWnd* pParent /*=NULL*/)
 	: CDialogEx(CboomDlg::IDD, pParent)
 {
 	m_hIcon = AfxGetApp()->LoadIcon(IDR_MAINFRAME);
+
+
+
+	int a;
+	int b;
 }
 
 void CboomDlg::DoDataExchange(CDataExchange* pDX)
